@@ -92,11 +92,13 @@ h1{
         background-color: yellow;
     
 }
+/* label tag is used to style the content */
 label{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     color: orange;
 }
+/* button  is styled and hovered  */
 .button{
     border-radius: 8px;
     padding: 10px;
@@ -109,17 +111,19 @@ label{
     background-color: red;
     color: white;
 }
+/* edit and delete button are styled and hovered */
 .fa-solid:hover{
     background-color: red;
     transform: scale(2.5);
 }
-
+/* container1 paragraph is styled and how it should be displayed in the box */
 .container1 p{
     border: 1px solid black;
     color: purple;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
 }
+/* anchor tag is styled, which is used to provide git hub link. */
 a{
     position: absolute;
     top:600px;
