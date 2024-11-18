@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Meta tags with css and font-awesome link for edit and delete button. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="sanjeev" keyword="js dom assignment">
+    <meta author="sanjeev" description="student records for people who register in cricket">
+    <title>JS DOM ASSIGNMENT</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/7120fe670f.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+   <!-- heading and a paragraph tag ,and described about the options available -->
+    <h1> Student's Registration System for cricket</h1>
+    <p class="para"> Students can enter their name,id,contact no,email id  and enter the submit button below to 
+        register their name for cricket, they also have the option to edit and delete the records, if they missed 
+        one information or given wrong they can edit or if they want to rewrite they can delete.
+    </p>
+    <section>
+     <!-- created form with name,id,contact,emailid -->
+      <div class="container">
+       <form>
+        <label for="Student ID">Student ID(5 Numbers Only)</label>
+        <br>
+        <input id="Student ID" type="number" value="student-name" class="id">
+        <br>
+        <br>
+        <label for="student-name">Student name</label>
+        <br>
+        <input id="student-name" type="text" name="student-name" class="name">
+        <br>
+        <br>
+        <label for="contact">Contact-no(10 Numbers Only)</label>
+        <br>
+        <input id="contact" type="number" value="contact" class="contact">
+        <br>
+        <br>
+        <label for="emailid">E-mail ID</label>
+        <br>
+        <input id="emailid" type="email" name="emailid" class="email">
+        <br>
+        <br>
+        <input type="button" value="submit" class="button">
+       </form>
+      </div>
+    </section>
+    <article>
+      <!-- just a heading for what items we can get in records -->
+        <div class ="arrangement">
+          <p>ID</p>
+          <p>Name</p>
+          <p>Contact no</p>
+          <p>e-mail</p>
+        </div>
+      <!-- created this div to display student records -->
+        <div class="container1">
+         
+
+        </div>
+    </article>
+    <!-- script tag to connect js -->
+    <script src="app.js"></script>
+</body>
+</html>
