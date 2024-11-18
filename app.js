@@ -55,7 +55,7 @@ function addlist(){
        // append create div with original div in the html to display information
        div.appendChild(creatediv);
        //local storage is set, so that our data will not disappear after refreshing.
-      localStorage.clear();
+      
       localStorage.setItem(name1.value,name2.value);
          
        localStorage.setItem(name3.value,name4.value);
